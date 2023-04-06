@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+}
+
+img{
+    width: 180px;
+    border-radius: 5%;
+}
+
+.boardbox{
+    width: 80%;
+    background-color: rgb(209, 228, 250);
+    box-shadow: 0 5px 20px rgb(194, 194, 194);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(194, 194, 194);
+    border-radius: 5%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    margin: 5px auto 5px auto;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: .7rem;
+    margin: 5px;
+}
+
+/*for the comparison*/
+
+.FMimage{
+    position: fixed;
+    scale: 120%;
+    right: 50px;
+    bottom: 50px;
+}
+
+figcaption{
+    font-size: .5rem;
+    font-style: italic;
+}
+
+.FMimage:hover{
+    scale: 300%;
+    right: 250px;
+    bottom: 200px;
+    transition: .1s;
+}
